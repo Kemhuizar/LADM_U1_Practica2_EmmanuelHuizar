@@ -29,11 +29,10 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             if(editText3.text.isEmpty()!=true) {
                 if (radioButton.isChecked) {
+                    
                     guardarArchivoInterno()
                 } else {
                     if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_DENIED){
-                        //SI ENTRA ENTONCES AUN NO SE HAN OTORGADO LOS PERMISOS
-                        //EL SIGUINTE CODIGO LOS SOLICITA
 
                         ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE), 0)
                     } else {
