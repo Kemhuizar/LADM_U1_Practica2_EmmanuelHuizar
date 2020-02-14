@@ -83,6 +83,7 @@
             android:layout_weight="1"
             android:text="Guardar"
             android:textSize="18sp"
+            android:background="@drawable/buton_1"
             android:textStyle="bold" />
 
         <Button
@@ -91,6 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30sp"
             android:layout_weight="1"
+            android:background="@drawable/buton_1"
             android:text="Abrir"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -101,6 +103,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Salir"
+        android:background="@drawable/buton_1"
         android:textSize="18sp"
         android:textStyle="bold" />
 
