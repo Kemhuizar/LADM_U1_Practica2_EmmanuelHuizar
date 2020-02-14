@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             if(editText3.text.isEmpty()!=true) {
                 if (radioButton.isChecked) {
-                    //cambio
+
                     guardarArchivoInterno()
                 } else {
                     if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_DENIED){
