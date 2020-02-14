@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         radioButton2.setOnClickListener {
             editText3.setText("")
         }
-
+        //oi
         button.setOnClickListener {
             if(editText3.text.isEmpty()!=true) {
                 if (radioButton.isChecked) {
